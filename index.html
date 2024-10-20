@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Aarif - Software Developer</title>
+  <meta name="title" content="Mohamed Aarif - Software Developer">
+  <meta name="description" content="This is a personal portfolio html">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Career Journey</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Core Competencies</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Portfolio of Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Mohamed Aarif</h1>
+
+            <p class="hero-subtitle typing-animation">
+              Full Stack Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/IMG_3285.jpg" width="200" height="200" alt="kane williams" class="w-100">
+            </div>
+            <a href="#" class="btn has-before" style="background-color: white; color: black;">
+              <span class="span">Download CV</span>
+
+              <i class="fas fa-download" aria-hidden="true"></i>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="service" id="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+
+              <h2 class="h2 section-title" id="service-label">Professional Experiences</h2>
+            </div>
+
+            <p class="section-text">
+              Right after completing my Bachelor of Engineering in Robotics and Automation, I embarked on a journey in
+              the tech
+              industry that has shaped my skills and expertise
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Associate Consultant
+                    <h4>at BNP Paribas India Pvt Ltd.</h4>
+                  </h3>
+
+                  <br />
+
+                  <p class="card-text">
+                    Developed and implemented a web application called CUBE which is used to onboard clients digitally
+                    using tools like Java, Angular, and Camunda for navigating through workflows. 
+                    <br/>Worked on deploying the docker image into the live server at the end of each sprint cycle. Worked 
+                    under the Department of Wealth Management for Client Marketing Life-cycle team.
+                  </p>
+
+                  <span class="text-lg card-number">
+                  </span>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Software Engineer
+                    <h4>at Mindox Technologies</h4>
+                  </h3>
+
+                  <br />
+
+                  <p class="card-text">
+                    Wrote deployable software for EFEM (Equipment Front End Module) application in C# complying with
+                    SEMI
+                    guidelines. Increased code stability by developing a functional library package for the SECS/GEM
+                    communication.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Senior Systems Engineer
+                    <h4>at Infosys Limited</h4>
+                  </h3>
+
+                  <br />
+
+                  <p class="card-text">
+                    Developed deployable software for a chatbot application, handling both frontend and backend,
+                    resulting in a 5x increase
+                    in user count. Trained chatbot with Deep Learning and NLP models for small talk purposes.
+                    <br />Conducted lectures and led events, such as Matrix AI, to educate employees on AI and Data
+                    Science concepts.
+                    <br />Collaborated in designing syllabus content for courses on topics like OpenAI GPT-3 and Time
+                    Series Analysis.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+                  <br />
+
+                  <h3 class="h3 card-title">Project Intern
+                    <h4>at Caterpillar India Pvt Ltd</h4>
+                  </h3>
+
+                  <p class="card-text">
+                    Developed automation code for the Hierarchical Model Integration (HMI) model useful for building
+                    Electronic Control Unit
+                    (ECU), reducing integration time from 3-4 days to 30-40 minutes, using MATLAB Simulink tool.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section skills" id="skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">Technical Proficiencies & Competencies</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                Pellentesque magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi senectus
+                dictum.
+              </p>
+
+              <p class="section-text">
+                Web design magna magna semper dapibus felis necatin aliuen risus. Pellentesque habitant morbi tristique
+                senectus the neuse malesuada nullam ac lorem miss the duru.
+              </p>
+            </div>
+
+            <div>       
+                <ul class="skills-list">
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Core Java & Python</p>
+                      <data class="progress-value" value="90">90%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 90%;"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">SpriingBoot, Microservices & RESTful API</p>
+                      <data class="progress-value" value="90">90%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 90%;"></div>
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Angular & React (TypeScript , JavaScript)</p>
+                      <data class="progress-value" value="80">80%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 80%;"></div>
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Cloud Services (Amazon AWS, Azure)</p>
+                      <data class="progress-value" value="70">70%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 70%;"></div>
+                    </div>
+                  </li>
+  
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">DevOps (Docker, Jenkins, Git)</p>
+                      <data class="progress-value" value="75">75%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 75%;"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Camunda, MATLAB Simulink</p>
+                      <data class="progress-value" value="60">60%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 60%;"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Apache Kafka, Hadoop</p>
+                      <data class="progress-value" value="50">50%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 50%;"></div>
+                    </div>
+                  </li>
+                </ul>
+
+            </div> 
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="portfolio" id="projects" aria-labelledby="portfolio-label">
+        <div class="title-wrapper container">
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Notable works</p>
+
+            <h2 class="h2 section-title">Featured Projects</h2>
+          </div>
+          <p class="section-text">
+            Projects, underatken during my free time and also part of my academic curriculum, not only honed my skills
+            but also
+            allowed me to explore new technologies and methodologies. Below is a selection of completed projects that
+            showcase
+            my ability to tackle diverse challenges and deliver impactful solutions.
+          </p>
+        </div>
+
+        <div class="slider" data-slider>
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/inventory.webp" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Inventory Control Management</h3>
+                  <p class="card-text">Website / Development</p>
+                </div>
+                <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/nlp_rec.webp" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Zero-Shot classification using Cross-lingual Transfer</h3>
+                  <p class="card-text">Natural Language Processing</p>
+                </div>
+                <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/blackhole.webp" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Exoplanet Space Exploration</h3>
+                  <p class="card-text">Ensemble Learning</p>
+                </div>
+                <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/hotel.avif" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Hotel Booking Management</h3>
+                  <p class="card-text">Web Development</p>
+                </div>
+                <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/robot arm.webp" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Scorbot Robotic Arm</h3>
+                  <p class="card-text">Robotics</p>
+                </div>
+                <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+                <img src="./assets/images/machine-tool-operating.webp" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+                <div class="card-content">
+                  <h3 class="h3 card-title">Smart Incubators</h3>
+                  <p class="card-text">Automation and PLC</p>
+                </div>
+                <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="section blog" aria-labelledby="blog-label">
+
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+        <li>
+          <a href="mailto:moham09@pfw.edu" class="footer-link">moham09@pfw.edu</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Fort Wayne - Indiana</a>
+        </li>
+      </ul>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://github.com/aarifm-pfw" class="social-link" target="_blank">
+            <i class="fab fa-github social-icon"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/mohamedaarifsulaiman/" class="social-link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/aarif11b/" class="social-link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/aarifm007/" class="social-link" target="_blank">
+            <i class="fab fa-instagram social-icon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
